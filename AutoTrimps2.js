@@ -1,4 +1,4 @@
-var ATversion = 'Zek v5.3.0',
+var ATversion = 'Zek v5.3.1',
     atscript = document.getElementById('AutoTrimps-script'),
     basepath = 'https://dansseg.github.io/AutoTrimps/', //Link to your own Github here if you forked!
     modulepath = 'modules/';
@@ -33,6 +33,12 @@ function initializeAutoTrimps() {
 }
 
 var changelogList = [];
+changelogList.push({
+    date: "16/09/2026",
+    version: "v5.3.1",
+    description: "<b>Trimps v5.10.1</b> Auto Bone Charges work in U2 now as well. ",
+    isNew: true
+});
 changelogList.push({
     date: "25/08/2026",
     version: "v5.3.0",
